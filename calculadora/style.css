@@ -1,0 +1,27 @@
+body {
+    font-size: 15pt;
+    justify-self: center;
+}
+
+output {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding-right: 167px;
+    padding-left: 3px;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: #fbfbfb;
+}
+
+.linha-1 {
+    background: #f9b20c;
+}

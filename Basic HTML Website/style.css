@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, .rights {
+    font-family: "Caveat";
+}
+
+
+.user {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.user .avatar {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+}
+
+.user p {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.sections {
+    display: flex;
+    margin-right: 20px;
+}
+
+.sections p {
+    font-size: 20px;
+}
+
+.sections p::before {
+    content: "/ ";
+}
+
+.sections p:first-child::before {
+    content: "";
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 55px;
+    margin-top: 80px;
+}
+
+header p {
+    color: gray;
+    margin-top: -15px;
+    margin-bottom: 80px;
+}
+
+.cabecalho {
+    border: 2px solid black;
+}
+
+main {
+    border: 2px solid black;
+    display: flex;
+}
+
+main section {
+    border: 2px solid black;
+}
+
+.projects div {
+    border-bottom: 2px solid black;
+}
+
+.projects div:last-child {
+    border-bottom: none;
+}
+
+.projects {
+    width: 300px;
+}
+
+main section h2, 
+main section p, 
+main section h3,
+main section ul,
+footer h2 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.project5 {
+    height: 100px;
+}
+
+.work div {
+    border-bottom: 2px solid black;
+}
+
+.work div:last-child {
+    border-bottom: none;
+}
+
+.education ul {
+    list-style: none;
+}
+
+.education ul li::before {
+    content: "- ";
+}
+
+footer {
+    border: 2px solid black;
+}
+
+footer .review {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 80px;
+    width: 900px;
+    height: 200px;
+}
+
+footer .review div {
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.review p {
+    text-align: left;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.author,
+.profission {
+    color: gray;
+}
+
+.author {
+    line-height: 0px;
+    margin-top: 60px;
+    margin-bottom: -15px;
+}
+
+.rights {
+
+    margin: 60px 0 30px 0;
+}

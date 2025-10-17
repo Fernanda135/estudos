@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accessible Form UI</title>
+</head>
+<body>
+
+    <div class="container">
+        <form action="#">
+            <label for="name">
+                Full Name
+                <input required type="text" name="name" id="" placeholder="Enter your full name">
+            </label>
+
+            <label for="email">
+                Email
+                <input required type="email" name="email" id="" placeholder="Ex: example@ex.com">
+            </label>
+
+            <label for="pass">
+                Enter Password
+                <input required type="password" name="pass" id="" placeholder="xxxxxxxx">
+            </label>
+
+            <label for="cpass">
+                Confirm Password
+                <input required type="password" name="cpass" id="" placeholder="xxxxxxxx">
+            </label>
+
+            <input type="submit" value="SUBMIT" class="sub">
+
+        </form>
+
+        <div class="info">
+            <div class="progress-bar">
+                <progress value="75" min="0" max="100" style="visibility:hidden;height:0;width:0;">75%</progress>
+            </div>
+
+            <h4>Profile Completeness</h4>
+
+            <div class="tasks">
+                <div class="task">
+                    <p><s>Create Account</s></p>
+                    <p><s>Update Roadmap Progrss</s></p>
+                    <p><s>Setup Public Profile</s></p>
+                    <p>Complete your first project</p>
+                    <p>Invite your Friends</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
