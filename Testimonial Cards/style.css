@@ -1,0 +1,131 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.a-1 {
+    background-color: rgb(30, 29, 29);
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    width: 400px;
+    font-weight: bold;
+}
+
+.aa {
+    position: absolute;
+    background-color: rgb(30, 29, 29);
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    rotate: 45deg;
+    top: 120px;
+}
+
+.a-2 {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.a-user {
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.desc {
+    margin-top: -5px;
+}
+
+.name-a {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.profa {
+    margin-top: -3px;
+}
+
+.b {
+    border: 2px solid black;
+    width: 400px;
+    padding: 5px 10px 5px 15px;
+    border-radius: 10px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 10px;
+}
+
+.c-user {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.c {
+    background-color: rgb(30, 29, 29);
+    color: white;
+    width: 790px;
+    height: 200px;
+    padding: 0px 5px 5px 15px;
+    border-radius: 10px;
+}
+
+.star {
+    letter-spacing: -5px;
+}
+
+.name-c {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.prof-c {
+    margin-top: -6px;
+    color: rgb(193, 193, 193);
+}
+
+
+.card3 {
+    border: 2px solid black;
+    width: 700px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.d {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.userd-1, .userd-3, .userd-2 {
+    background-color: gray;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.userd-2 {
+    background-color: rgb(30, 29, 29);
+}

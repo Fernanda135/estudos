@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        fieldset {
+            margin-bottom: 10px;
+        }
+
+        legend {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input{
+            width: 75%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #7b7b7b;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2f2f2f;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Info</legend>
+            First Name: <input type="text" name="firstname" required><br>
+            Last Name: <input type="text" name="lastname" required><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Contact Info</legend>
+            Email: <input type="email" name="email" required><br>
+            Phone: <input type="tel" name="phone" required><br>
+            <input type="submit" value="Submit"></fieldset>
+    </form>
+</body>
+</html>

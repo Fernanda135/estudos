@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tooltip UI</title>
+</head>
+<body>
+
+    <div class="tips">
+        <div class="tip a">
+            <p>Tooltip HOME</p>
+            <div class="ts"></div>
+        </div>
+        <div class="tip b">
+            <p>Tooltip PROJECTS</p>
+            <div class="ts"></div>
+        </div>
+        <div class="tip c">
+            <p>Tooltip BLOG</p>
+            <div class="ts"></div>
+        </div>
+    </div>
+
+    <div class="ui">
+        <p class="aa">HOME</p>
+        <p class="bb">PROJECTS</p>
+        <p class="cc">BLOG</p>
+    </div>
+    
+</body>
+
+<script>
+
+    let a = document.querySelector(".aa");
+
+    a.addEventListener("mouseover", () => {
+        document.querySelector(".a").style.visibility = "visible"
+    })
+
+    a.addEventListener("mouseout", () => {
+        document.querySelector(".a").style.visibility = "hidden"
+    })
+
+    let b = document.querySelector(".bb");
+
+    b.addEventListener("mouseover", () => {
+        document.querySelector(".b").style.visibility = "visible"
+    })
+
+    b.addEventListener("mouseout", () => {
+        document.querySelector(".b").style.visibility = "hidden"
+    })
+
+    let c = document.querySelector(".cc");
+
+    c.addEventListener("mouseover", () => {
+        document.querySelector(".c").style.visibility = "visible"
+    })
+
+    c.addEventListener("mouseout", () => {
+        document.querySelector(".c").style.visibility = "hidden"
+    })
+
+
+</script>
+
+</html>
