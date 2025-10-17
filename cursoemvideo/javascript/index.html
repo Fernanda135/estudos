@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            color: rgb(255, 0, 0);
+        }
+        #container {
+            background-color: green;
+            color: white;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod mollitia porro reprehenderit sunt repudiandae, pariatur quisquam quaerat veritatis odit cupiditate tempore provident quam et dolore illum ab temporibus ipsum.</p>
+    <div id="container">
+        <p>interaja...</p>
+    </div>
+
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+    <input type="button" value="somar" onclick="somar()">
+
+    <script>
+        document.getElementById("container").addEventListener("click", clicar)
+        document.getElementById("container").addEventListener("mouseenter", entrar)
+        document.getElementById("container").addEventListener("mouseleave", sair)
+        
+
+        function clicar() {
+            document.getElementById("container").style.backgroundColor = "red"
+            document.getElementById("container").innerText = "clicou!"
+        }
+
+        function entrar() {
+            document.getElementById("container").innerText = "entrou!"
+        }
+
+        function sair() {
+            document.getElementById("container").innerText = "saiu!"
+            document.getElementById("container").style.backgroundColor = "green"
+        }
+        
+        function somar() {
+            let num1 = document.getElementById("num1").value
+            let num2 = document.getElementById("num2").value
+            document.getElementById("container").innerText = parseInt(num1) + parseInt(num2)
+        }
+        
+    </script>
+</body>
+</html>

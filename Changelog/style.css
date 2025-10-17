@@ -1,0 +1,82 @@
+.changelog {
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.321);
+    width: 600px;
+    height: 700px;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.changelog p {
+    color: gray;
+}
+
+.line {
+    width: 2px;
+    height: 470px;
+    margin: 50px 0 0 200px;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+}
+
+.dates {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.points {
+    position: absolute;
+    display: flex;
+    bottom: 48px;
+    left: 153px;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.point {
+    background-color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.descs {
+    position: absolute;
+    bottom: 30px;
+    left: 230px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.changelog .desc {
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 25px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(54, 54, 54);
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-querie.css">
+</head>
+<body onresize="resize()">
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clique()">menu</span>
+        <menu id="items">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Cadastro</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>testando</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ullam animi iure molestias dolore, sed quis commodi explicabo laborum quasi itaque dicta nostrum illum, labore tempora neque harum aperiam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, saepe veniam. Aspernatur sunt est voluptas provident magnam aliquid quam, beatae maxime eligendi suscipit corporis quod reiciendis eaque, id, blanditiis consectetur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias tenetur eum, ea dolores, quos adipisci accusantium odit doloremque enim, officia labore nesciunt magni repudiandae. Impedit nostrum consectetur incidunt quis cumque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ullam animi iure molestias dolore, sed quis commodi explicabo laborum quasi itaque dicta nostrum illum, labore tempora neque harum aperiam! Ducimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ullam animi iure molestias dolore, sed quis commodi explicabo laborum quasi itaque dicta nostrum illum, labore tempora neque harum aperiam! Ducimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ullam animi iure molestias dolore, sed quis commodi explicabo laborum quasi itaque dicta nostrum illum, labore tempora neque harum aperiam! Ducimus.</p>
+        </article>
+    </main>
+
+    <script>
+        function clique(){
+            if(items.style.display == "block") {
+                items.style.display = "none";
+            } else {
+                items.style.display = "block";
+            }
+        }
+
+        function resize(){
+            if(window.innerWidth > 768) {
+                items.style.display = "block";
+            } else {
+                items.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
